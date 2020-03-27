@@ -9,10 +9,19 @@ html {
   margin: 0;
   padding: 0;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
 a {
   display: inline-block;
   text-decoration: none;
+  color: inherit;
 }
 
 span {
@@ -25,10 +34,13 @@ ul {
 
 li {
   display: inline-block;
-
 }
 
-form, input, button, select, option {
+form,
+input,
+button,
+select,
+option {
   outline: none;
 }
 
@@ -38,8 +50,10 @@ img {
 
 body {
   font-size: 14px;
+  font-weight: 400;
 }
 
-.slick-slide, .slick-slide * {
+.slick-slide,
+.slick-slide * {
   outline: none !important;
 }
