@@ -1,3 +1,4 @@
+@import "vars";
 html {
   box-sizing: border-box;
 }
@@ -56,4 +57,20 @@ body {
 .slick-slide,
 .slick-slide * {
   outline: none !important;
+}
+.container{
+  max-width: 1290px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
 }

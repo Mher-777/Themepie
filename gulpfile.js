@@ -23,6 +23,7 @@ gulp.task('style', function () {
         'node_modules/normalize.css/normalize.css',
         'node_modules/slick-carousel/slick/slick.css',
         'node_modules/animate.css/animate.css',
+        'node_modules/bootstrap/dist/css/bootstrap-grid.css',
         // 'node_modules/rateyo/min/jquery.rateyo.min.css',
         // 'node_modules/jquery-form-styler/dist/jquery.formstyler.css',
         // 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css',
