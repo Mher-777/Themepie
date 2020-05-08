@@ -1,4 +1,3 @@
-@import "vars";
 html {
   box-sizing: border-box;
 }
@@ -47,11 +46,13 @@ option {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 body {
-  font-size: 14px;
-  font-weight: 400;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .slick-slide,
@@ -73,4 +74,7 @@ body {
 }
 .footer {
   flex: 0 0 auto;
+}
+.logo{
+  max-width: 150px;
 }
